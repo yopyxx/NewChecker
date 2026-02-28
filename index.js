@@ -11,7 +11,7 @@ const {
 const token = process.env.TOKEN;               // 환경변수 TOKEN
 const clientId = '1476971350014034012';
 const guildId  = '1018194815286001756';
-const roleId   = '1018195906807480402';        // 포함할 역할 ID
+const roleId   = '1477394729808298167';        // 포함할 역할 ID
 
 if (!token) {
   console.error('❌ 환경변수 TOKEN이 설정되지 않았습니다. (.env 또는 호스팅 환경변수 확인)');
@@ -120,3 +120,4 @@ client.on('interactionCreate', async (interaction) => {
 
 
 client.login(token);
+
